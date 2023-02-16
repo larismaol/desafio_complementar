@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+
+            <legend>Informações Pessoais:</legend>
+            <p>Gênero:</p>
+            <input type="radio" name="genero" value="masculino"> 
+            <span>Masculino</span>
+            <input type="radio" name="genero" value="feminino">
+            <span>Feminino</span>
+            <input type="radio" name="genero" value="outro">
+            <span>Outro</span>
+            <br><br>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required>
+            <br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" required>
+            <br><br>            
+            <span>Tamanho:</span>
+            <select name="tamanhos">
+                <option value="G">Grande</option>
+                <option value="M">Médio</option>
+                <option value="P">Pequeno</option>
+            </select>
+            <br><br>
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
